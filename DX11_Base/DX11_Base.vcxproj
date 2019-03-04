@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\base\Debug.cpp" />
+    <ClCompile Include="src\base\FileSystem.cpp" />
+    <ClCompile Include="src\base\Geometry.cpp" />
+    <ClCompile Include="src\base\Math.cpp" />
+    <ClCompile Include="src\base\Random.cpp" />
+    <ClCompile Include="src\base\Stopwatch.cpp" />
+    <ClCompile Include="src\dx\d2d\D2DString.cpp" />
+    <ClCompile Include="src\dx\d2d\Direct2D.cpp" />
+    <ClCompile Include="src\dx\d2d\DWriteCustomFont\ResourceFontCollectionLoader.cpp" />
+    <ClCompile Include="src\dx\d2d\DWriteCustomFont\ResourceFontContext.cpp" />
+    <ClCompile Include="src\dx\d2d\DWriteCustomFont\ResourceFontFileEnumerator.cpp" />
+    <ClCompile Include="src\dx\d2d\DWriteCustomFont\ResourceFontFileLoader.cpp" />
+    <ClCompile Include="src\dx\d2d\DWriteCustomFont\ResourceFontFileStream.cpp" />
+    <ClCompile Include="src\dx\dx11\ConstantBuffer.cpp" />
+    <ClCompile Include="src\dx\dx11\DX11Device.cpp" />
+    <ClCompile Include="src\dx\dx11\DXResource.cpp" />
+    <ClCompile Include="src\dx\dx11\model\Model.cpp" />
+    <ClCompile Include="src\dx\dx11\RenderState.cpp" />
+    <ClCompile Include="src\dx\dx11\RenderTexture.cpp" />
+    <ClCompile Include="src\dx\dx11\Shader.cpp" />
+    <ClCompile Include="src\dx\dx11\Sprite.cpp" />
+    <ClCompile Include="src\dx\dx11\SpriteBatch.cpp" />
+    <ClCompile Include="src\dx\dx11\Texture.cpp" />
+    <ClCompile Include="src\dx\dx11\TextureCache.cpp" />
+    <ClCompile Include="src\dx\dx11\ViewPort.cpp" />
+    <ClCompile Include="src\dx\dxgi\DXGI.cpp" />
+    <ClCompile Include="src\dx\dxgi\Swapchain.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\sequence\GameMain.cpp" />
+    <ClCompile Include="src\sequence\InputUtil.cpp" />
+    <ClCompile Include="src\sequence\Room.cpp" />
+    <ClCompile Include="src\sequence\SequenceManager.cpp" />
+    <ClCompile Include="src\system\detail\Time.cpp" />
+    <ClCompile Include="src\system\DXInput.cpp" />
+    <ClCompile Include="src\system\Graphics.cpp" />
+    <ClCompile Include="src\system\Input.cpp" />
+    <ClCompile Include="src\system\Sound.cpp" />
+    <ClCompile Include="src\system\System.cpp" />
+    <ClCompile Include="src\win\DebugWindow.cpp" />
+    <ClCompile Include="src\win\Window.cpp" />
+    <ClCompile Include="src\win\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="src\base\Debug.h" />
+    <ClInclude Include="src\base\Easing.h" />
+    <ClInclude Include="src\base\FileSystem.h" />
+    <ClInclude Include="src\base\Geometry.h" />
+    <ClInclude Include="src\base\GetTextImpl.h" />
+    <ClInclude Include="src\base\Math.h" />
+    <ClInclude Include="src\base\Random.h" />
+    <ClInclude Include="src\base\Stopwatch.h" />
+    <ClInclude Include="src\base\Transform.h" />
+    <ClInclude Include="src\base\Tween.h" />
+    <ClInclude Include="src\dx\ComInitializer.h" />
+    <ClInclude Include="src\dx\d2d\D2DString.h" />
+    <ClInclude Include="src\dx\d2d\Direct2D.h" />
+    <ClInclude Include="src\dx\d2d\DWriteCustomFont\Common.h" />
+    <ClInclude Include="src\dx\d2d\DWriteCustomFont\ResourceFontCollectionLoader.h" />
+    <ClInclude Include="src\dx\d2d\DWriteCustomFont\ResourceFontContext.h" />
+    <ClInclude Include="src\dx\d2d\DWriteCustomFont\ResourceFontFileEnumerator.h" />
+    <ClInclude Include="src\dx\d2d\DWriteCustomFont\ResourceFontFileLoader.h" />
+    <ClInclude Include="src\dx\d2d\DWriteCustomFont\ResourceFontFileStream.h" />
+    <ClInclude Include="src\dx\dx11\AlignedNew.h" />
+    <ClInclude Include="src\dx\dx11\BlendState.h" />
+    <ClInclude Include="src\dx\dx11\Camera.h" />
+    <ClInclude Include="src\dx\dx11\CameraDesc.h" />
+    <ClInclude Include="src\dx\dx11\ConstantBuffer.h" />
+    <ClInclude Include="src\dx\dx11\DepthStencilState.h" />
+    <ClInclude Include="src\dx\dx11\DX11Device.h" />
+    <ClInclude Include="src\dx\dx11\DXResource.h" />
+    <ClInclude Include="src\dx\dx11\Image.h" />
+    <ClInclude Include="src\dx\dx11\model\Material.h" />
+    <ClInclude Include="src\dx\dx11\model\Mesh.h" />
+    <ClInclude Include="src\dx\dx11\RasterizerState.h" />
+    <ClInclude Include="src\dx\dx11\RenderState.h" />
+    <ClInclude Include="src\dx\dx11\RenderTexture.h" />
+    <ClInclude Include="src\dx\dx11\SamplerState.h" />
+    <ClInclude Include="src\dx\dx11\Shader.h" />
+    <ClInclude Include="src\dx\dx11\ShaderStage.h" />
+    <ClInclude Include="src\dx\dx11\Sprite.h" />
+    <ClInclude Include="src\dx\dx11\SpriteAnimation.h" />
+    <ClInclude Include="src\dx\dx11\SpriteBatch.h" />
+    <ClInclude Include="src\dx\dx11\Texture.h" />
+    <ClInclude Include="src\dx\dx11\TextureCache.h" />
+    <ClInclude Include="src\dx\dx11\VertexData.h" />
+    <ClInclude Include="src\dx\dx11\ViewPort.h" />
+    <ClInclude Include="src\dx\dxgi\DXGI.h" />
+    <ClInclude Include="src\dx\dxgi\Swapchain.h" />
+    <ClInclude Include="src\pch\stdafx.h" />
+    <ClInclude Include="src\sequence\Enemy.h" />
+    <ClInclude Include="src\sequence\FadeManager.h" />
+    <ClInclude Include="src\sequence\GameMain.h" />
+    <ClInclude Include="src\sequence\InputUtil.h" />
+    <ClInclude Include="src\sequence\Room.h" />
+    <ClInclude Include="src\sequence\SequenceManager.h" />
+    <ClInclude Include="src\sequence\TestScene.h" />
+    <ClInclude Include="src\system\detail\Time.h" />
+    <ClInclude Include="src\system\DXInput.h" />
+    <ClInclude Include="src\system\Graphics.h" />
+    <ClInclude Include="src\system\Input.h" />
+    <ClInclude Include="src\system\Sound.h" />
+    <ClInclude Include="src\system\System.h" />
+    <ClInclude Include="src\tama3d.h" />
+    <ClInclude Include="src\win\DebugWindow.h" />
+    <ClInclude Include="src\win\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="font1.bin" />
+    <None Include="src\base\mathint.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX11_Base.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1F3F69EA-DC11-4A9A-96D9-F29A9D19B3CC}</ProjectGuid>
+    <RootNamespace>DX11_Base</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>Lib\Debug;Lib\Debug\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>Lib\Debug;Lib\Debug\Win64;(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>Lib\Release;Lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>Lib\Release;Lib\Release\Win64;(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

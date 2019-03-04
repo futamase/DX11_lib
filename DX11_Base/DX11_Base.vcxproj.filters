@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\win">
+      <UniqueIdentifier>{47e6d965-3ba7-4b90-8a44-e4e0e3c1fcdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system">
+      <UniqueIdentifier>{7faf43b5-caaf-4cb9-9f29-9123f7b58951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system\detail">
+      <UniqueIdentifier>{563525e3-b445-4ea6-a583-006714c3ffdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{39f4de49-e342-4d53-9914-c78c7f23d52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dx">
+      <UniqueIdentifier>{2d60df2e-31bd-4193-bed1-e7f3c98506a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dx\d2d">
+      <UniqueIdentifier>{74d3fd81-6335-442e-92ec-9112dc8b4b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dx\d2d\CustomFont">
+      <UniqueIdentifier>{f405de9e-f4dc-4681-94a9-ab90706afdff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dx\dx11">
+      <UniqueIdentifier>{93c1a5b7-bc09-4f65-8496-d7e38256567b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pch">
+      <UniqueIdentifier>{04828a23-0840-40c1-a64e-d56020587faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dx\dxgi">
+      <UniqueIdentifier>{8e60e133-6fb5-4975-b482-073b460a3294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dx\dx11\state">
+      <UniqueIdentifier>{da75a73d-d2b7-4b60-8969-0e693a6f8862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sequence">
+      <UniqueIdentifier>{361e3c41-cd5e-451a-a949-0976fdab7a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dx\dx11\Model">
+      <UniqueIdentifier>{3afc8e12-efd0-45f4-ac63-b1e7dea7a694}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\Window.cpp">
+      <Filter>src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\WinMain.cpp">
+      <Filter>src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\DebugWindow.cpp">
+      <Filter>src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\System.cpp">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\detail\Time.cpp">
+      <Filter>src\system\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\Geometry.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\Debug.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\d2d\Direct2D.cpp">
+      <Filter>src\dx\d2d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\d2d\DWriteCustomFont\ResourceFontContext.cpp">
+      <Filter>src\dx\d2d\CustomFont</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\d2d\DWriteCustomFont\ResourceFontFileEnumerator.cpp">
+      <Filter>src\dx\d2d\CustomFont</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\d2d\DWriteCustomFont\ResourceFontFileLoader.cpp">
+      <Filter>src\dx\d2d\CustomFont</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\d2d\DWriteCustomFont\ResourceFontFileStream.cpp">
+      <Filter>src\dx\d2d\CustomFont</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\d2d\DWriteCustomFont\ResourceFontCollectionLoader.cpp">
+      <Filter>src\dx\d2d\CustomFont</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\d2d\D2DString.cpp">
+      <Filter>src\dx\d2d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dx11\DX11Device.cpp">
+      <Filter>src\dx\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dx11\DXResource.cpp">
+      <Filter>src\dx\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dxgi\DXGI.cpp">
+      <Filter>src\dx\dxgi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dxgi\Swapchain.cpp">
+      <Filter>src\dx\dxgi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dx11\ConstantBuffer.cpp">
+      <Filter>src\dx\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dx11\RenderState.cpp">
+      <Filter>src\dx\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dx11\Shader.cpp">
+      <Filter>src\dx\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dx11\Sprite.cpp">
+      <Filter>src\dx\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dx11\SpriteBatch.cpp">
+      <Filter>src\dx\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dx11\Texture.cpp">
+      <Filter>src\dx\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dx11\TextureCache.cpp">
+      <Filter>src\dx\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\DXInput.cpp">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\Input.cpp">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\Sound.cpp">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dx11\ViewPort.cpp">
+      <Filter>src\dx\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\Graphics.cpp">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sequence\Room.cpp">
+      <Filter>src\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sequence\SequenceManager.cpp">
+      <Filter>src\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sequence\GameMain.cpp">
+      <Filter>src\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sequence\InputUtil.cpp">
+      <Filter>src\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\Math.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dx11\RenderTexture.cpp">
+      <Filter>src\dx\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\FileSystem.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dx\dx11\model\Model.cpp">
+      <Filter>src\dx\dx11\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\Random.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\Stopwatch.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\tama3d.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win\DebugWindow.h">
+      <Filter>src\win</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win\Window.h">
+      <Filter>src\win</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\System.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\detail\Time.h">
+      <Filter>src\system\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\Debug.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\Easing.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\Geometry.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\Math.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\Stopwatch.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\Transform.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\Tween.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\d2d\Direct2D.h">
+      <Filter>src\dx\d2d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\ComInitializer.h">
+      <Filter>src\dx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\d2d\DWriteCustomFont\ResourceFontContext.h">
+      <Filter>src\dx\d2d\CustomFont</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\d2d\DWriteCustomFont\ResourceFontFileEnumerator.h">
+      <Filter>src\dx\d2d\CustomFont</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\d2d\DWriteCustomFont\ResourceFontFileLoader.h">
+      <Filter>src\dx\d2d\CustomFont</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\d2d\DWriteCustomFont\ResourceFontFileStream.h">
+      <Filter>src\dx\d2d\CustomFont</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\d2d\DWriteCustomFont\Common.h">
+      <Filter>src\dx\d2d\CustomFont</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\d2d\DWriteCustomFont\ResourceFontCollectionLoader.h">
+      <Filter>src\dx\d2d\CustomFont</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\d2d\D2DString.h">
+      <Filter>src\dx\d2d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\GetTextImpl.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dxgi\DXGI.h">
+      <Filter>src\dx\dxgi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dxgi\Swapchain.h">
+      <Filter>src\dx\dxgi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\DX11Device.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\DXResource.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch\stdafx.h">
+      <Filter>src\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\AlignedNew.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\Camera.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\ConstantBuffer.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\Image.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\RenderState.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\RenderTexture.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\Shader.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\ShaderStage.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\Sprite.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\SpriteAnimation.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\SpriteBatch.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\Texture.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\TextureCache.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\VertexData.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\DXInput.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Input.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Sound.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\ViewPort.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\Graphics.h">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\CameraDesc.h">
+      <Filter>src\dx\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\BlendState.h">
+      <Filter>src\dx\dx11\state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\DepthStencilState.h">
+      <Filter>src\dx\dx11\state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\RasterizerState.h">
+      <Filter>src\dx\dx11\state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\SamplerState.h">
+      <Filter>src\dx\dx11\state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sequence\Room.h">
+      <Filter>src\sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sequence\SequenceManager.h">
+      <Filter>src\sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sequence\FadeManager.h">
+      <Filter>src\sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sequence\GameMain.h">
+      <Filter>src\sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sequence\InputUtil.h">
+      <Filter>src\sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="src\base\Random.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\FileSystem.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\model\Material.h">
+      <Filter>src\dx\dx11\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dx\dx11\model\Mesh.h">
+      <Filter>src\dx\dx11\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sequence\Enemy.h">
+      <Filter>src\sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sequence\TestScene.h">
+      <Filter>src\sequence</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\base\mathint.inl">
+      <Filter>src\base</Filter>
+    </None>
+    <None Include="font1.bin">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX11_Base.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
